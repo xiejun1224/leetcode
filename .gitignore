@@ -1,0 +1,19 @@
+# 编译产物
+*.exe
+*.o
+*.obj
+a.out
+main
+
+# IDE / 构建
+.vs/
+.vscode/
+.idea/
+cmake-build-*/
+build/
+Debug/
+Release/
+
+# 系统
+.DS_Store
+Thumbs.db
