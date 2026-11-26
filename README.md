@@ -7,15 +7,19 @@
 
 ## 目录约定
 
-每道题一个文件夹，`题号-题目中文名`：
+每道题一个文件夹，命名：**`题目号-英文短名`**（小写、单词间连字符）
 
 ```
-0209-长度最小的子数组/
+0209-minimum-size-subarray-sum/
 ├── solution.cpp    # 代码（必填，自己写过一遍的）
 └── README.md       # 思路 + 复杂度 + 易错点（可选，难题一定要写）
 ```
 
-新建一题快捷操作：复制 `templates/solution.cpp`，改开头注释。
+英文名从题目链接里抄最后一段就行，比如
+`leetcode.cn/problems/find-all-anagrams-in-a-string` → `0438-find-all-anagrams`
+
+`templates/` 是空白答题纸：新建题目时把 `templates/solution.cpp` 复制进去，
+开头的注释栏（题号/思路/复杂度/易错点）现成的，填空即可。
 
 ---
 
